@@ -5,10 +5,10 @@ The purpose of this GitHub action is to run xmlstarlet on arbitrary files during
 Use the GitHub action in the following way:
 
 ```
-action "xmlstarlet" {
-  uses = "Mudlet/xmlstarlet-action@master"
-  args = "ed -P -L -d src/mudlet.ts //@line"
-}
+  - name: muffle line shuffling
+    uses: Mudlet/xmlstarlet-action@master
+    with:
+      args: ed -P -L --delete //@line translations/mudlet.ts
 ```
 
 The `args` field is used as arguments and options to the xmlstarlet command.
