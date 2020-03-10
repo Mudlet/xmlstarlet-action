@@ -2,7 +2,7 @@ FROM alpine:latest
 
 LABEL "name"="xmlstarlet"
 LABEL "maintainer"="Florian Scheel <keneanung@googlemail.com>"
-LABEL "version"="1.0.0"
+LABEL "version"="1.1.0"
 
 LABEL "com.github.actions.name"="Run xmlstarlet"
 LABEL "com.github.actions.description"="Allows the use of xmlstarlet on files"
