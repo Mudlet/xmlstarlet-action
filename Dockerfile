@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM gliderlabs/alpine:3.4
 
 LABEL "name"="xmlstarlet"
 LABEL "maintainer"="Florian Scheel <keneanung@googlemail.com>"
@@ -9,7 +9,7 @@ LABEL "com.github.actions.description"="Allows the use of xmlstarlet on files"
 LABEL "com.github.actions.icon"="scissors"
 LABEL "com.github.actions.color"="orange"
 
-apk add xmlstarlet --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/edge/community
+RUN apk add xmlstarlet --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/edge/community
 
 COPY entrypoint.sh /entrypoint.sh
 
