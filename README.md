@@ -19,4 +19,4 @@ Example:
       args: ed -P -L --delete //@line translations/mudlet.ts
 ```
 
-
+Originally developed and in use in [Mudlet](https://github.com/Mudlet/Mudlet).
