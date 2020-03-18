@@ -1,6 +1,6 @@
 name: 'Edit XML'
 description: 'Run xmlstarlet to modify XML in an XML-aware way'
-author: '@mudlet'
+author: 'Mudlet'
 runs:
   using: 'docker'
   image: 'Dockerfile'
