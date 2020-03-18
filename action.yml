@@ -1,1 +1,9 @@
-
+name: 'Edit XML'
+description: 'Run xmlstarlet to modify XML in an XML-aware way'
+author: '@mudlet'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'edit'
+  color: 'yellow'
