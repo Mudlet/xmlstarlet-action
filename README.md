@@ -19,4 +19,8 @@ Example:
       args: ed -P -L --delete //@line translations/mudlet.ts
 ```
 
+In case you wish to use the result of xmlstarlet command in an other step, this action exposes this result through the `xmlstartlet_result` output.
+
+___
+
 Originally developed and in use in [Mudlet](https://github.com/Mudlet/Mudlet).

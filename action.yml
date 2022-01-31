@@ -4,6 +4,9 @@ author: 'Mudlet'
 runs:
   using: 'docker'
   image: 'Dockerfile'
+outputs:
+  xmlstarlet_result:
+    description: 'Result of the xmlstarlet command'
 branding:
   icon: 'edit'
   color: 'yellow'
