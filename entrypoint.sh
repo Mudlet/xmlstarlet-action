@@ -1,4 +1,5 @@
 #!/bin/sh
 set -e
 
-xmlstarlet $@
+output=$(xmlstarlet $@)
+echo "::set_output name=xmlstarlet_result::${output}"
