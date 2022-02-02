@@ -2,4 +2,4 @@
 set -e
 
 output=$(xmlstarlet $@)
-echo "::set_output name=xmlstarlet_result::${output}"
+echo "::set-output name=xmlstarlet_result::${output}"
