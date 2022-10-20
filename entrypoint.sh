@@ -2,4 +2,4 @@
 set -e
 
 output=$(xmlstarlet $@)
-echo "::set-output name=xmlstarlet_result::${output}"
+echo "xmlstarlet_result=${output}" >> $GITHUB_OUTPUT
